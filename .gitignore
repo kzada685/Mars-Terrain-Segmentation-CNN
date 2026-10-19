@@ -1,0 +1,36 @@
+# Data, weights and generated results
+/data/
+/checkpoints/
+/outputs/
+/runs/
+/wandb/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# LaTeX temporary build files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
