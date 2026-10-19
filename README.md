@@ -4,7 +4,7 @@ Semantic segmentation of Mars rover imagery using convolutional neural networks.
 
 ## Goal
 
-Develop and train a terrain-segmentation model in PyTorch and evaluate its predictions against a Random Forest baseline.
+Develop and train a terrain segmentation model in PyTorch to identify different Martian terrain types and evaluate its ability to support rover navigation and environmental perception.
 
 ## Dataset
 
