@@ -48,12 +48,8 @@ def labeled_pixels(image, mask):
     return features[valid], targets[valid].astype(np.int64)
 
 
-def build_baseline():
-    """Create an unfitted Random Forest using scikit-learn's defaults.
-
-    No experiment settings are selected at this stage. Import scikit-learn
-    when the estimator is requested so feature preparation stays independent.
-    """
+def build_baseline(seed=360):
+    """Use default model settings and a fixed seed for repeatability."""
     from sklearn.ensemble import RandomForestClassifier
 
-    return RandomForestClassifier()
+    return RandomForestClassifier(random_state=seed)

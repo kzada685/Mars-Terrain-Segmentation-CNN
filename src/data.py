@@ -1,7 +1,8 @@
 """Locate the Curiosity NavCam image/mask pairs for the initial CNN.
 
-The selected v0.6 training pool contains 16,064 candidate labeled images.
-Final usable counts will be established during the later cleaning step.
+The selected v0.6 pool contains 16,064 candidate image/mask pairs.
+Filtering retains 15,901 pairs; two conflicting annotations remain flagged.
+See prepare.py for explicitly quarantined, frozen model-ready splits.
 Expert-test masks are kept separate and are not included here.
 """
 
