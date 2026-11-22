@@ -12,6 +12,8 @@ The project uses NASA dataset catalog
 
 ## Repository structure
 
+Terrain_Segmentation.ipynb contains the complete workflows and should be viewed as the independent representaiton of this project while other .py files can be ignored.
+
 ```text
 src/        Project source code
 notebooks/  Exploration and experiments
